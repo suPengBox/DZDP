@@ -1,0 +1,57 @@
+@charset "utf-8";
+body{background: #f6f6f6;}
+header{
+  height: 0.9rem;width: 100%;box-shadow: 0 1px 3px #d8d8d8;-webkit-box-shadow: 0 1px 3px #d8d8d8;justify-content:space-between;display: flex;position: fixed;top: 0;background: #ffffff;z-index: 1000;padding-right: 0.46rem;box-sizing: border-box;
+  a{
+    display: block;height: 100%;width: 0.9rem;
+    img{height: 0.4rem;width: 0.22rem;}
+  }
+  .header-c{
+    flex: 1;height: 0.6rem;margin: auto 0;border-radius: 0.3rem;background-size: 0.31rem 0.31rem;color: #b8b7bc;font: 0.26rem/0.6rem "";background: #e8e8e8;justify-content: space-between;display: flex;
+    span{padding-left: 0.18rem;}
+    img{height: 0.31rem;width: 0.31rem;margin: auto 0;}
+    .te{height: 0.31rem;width: 0.31rem;margin: auto 0.18rem;}
+  }
+}
+
+section{
+  padding:0.9rem 0.24rem 0 0;justify-content: space-between;display: flex;
+  .aleft{
+    ul{
+      li{
+        height: 1.1rem;width: 1.6rem;text-align: center;font: 0.28rem/1.1rem "";color: #000000;background: #ffffff;border-bottom: 1px solid #e1e1e1;border-right: 1px solid #e1e1e1;
+      }
+      .active{border: none;background: #f6f6f6;border-left: 0.12rem solid #e7be86;font-weight: 700;box-sizing: border-box;}
+    }
+  }
+  .aright{
+    width: 5.4rem;
+    ul{
+      .all1{
+        padding-top: 0.2rem;justify-content: space-between;display: flex;flex-wrap: wrap;
+        a{
+          margin-top: 0.15rem;
+          img{height: 1.68rem;width: 1.68rem;}
+        }
+      }
+      .all2{
+        padding-top: 0.19rem;width: 100%;
+        .all2t{
+          justify-content: space-between;display: flex;
+          .all2t-l{
+            font: 0.3rem/1rem "";color: #000000;font-weight: 700;
+            span{color: #f4032d;}
+          }
+          i{font: 0.24rem/1rem "";color: #9f9f9f;background: url(../images/allr.png) no-repeat right center;background-size: 0.15rem 0.19rem;padding-right: 0.35rem}
+        }
+        .all2b{
+          background: #fff;display: flex;justify-content:flex-start;flex-wrap: wrap;width: 100%;padding-bottom: 0.2rem;
+          a{
+            width: 1.8rem;text-align: center;font: 0.23rem/0.46rem "";
+            img{height: 0.89rem;width: 0.89rem;margin: 0.28rem auto 0;}
+          }
+        }
+      }
+    }
+  }
+}

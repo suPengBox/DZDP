@@ -1,0 +1,133 @@
+#Find {
+  background: #f0f0f0;
+  width: 100%;
+  height: 100%; }
+  #Find header {
+    height: 0.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding-right: 0.3rem;
+    box-sizing: border-box; }
+    #Find header .header-l {
+      width: 1.52rem;
+      height: 100%;
+      text-align: center;
+      font: 0.28rem/0.9rem "";
+      color: #fe875f;
+      display: flex;
+      justify-content: flex-end; }
+      #Find header .header-l img {
+        height: 0.14rem;
+        width: 0.24rem;
+        display: block;
+        margin: auto 0.16rem; }
+    #Find header .header-c {
+      flex: 1;
+      height: 0.6rem;
+      margin: auto 0;
+      border-radius: 0.3rem;
+      background-size: 0.31rem 0.31rem;
+      color: #838383;
+      font: 0.26rem/0.6rem "";
+      text-align: center;
+      background: #e8e8e8; }
+      #Find header .header-c img {
+        height: 0.31rem;
+        width: 0.31rem;
+        margin: auto 0; }
+  #Find section .find1 {
+    padding-top: 0.9rem;
+    margin-top: 0.2rem; }
+    #Find section .find1 .find1In {
+      height: 1.4rem;
+      width: 100%;
+      padding: 0 0.3rem;
+      justify-content: space-between;
+      display: flex;
+      box-sizing: border-box;
+      background: #ffffff; }
+      #Find section .find1 .find1In p {
+        font: 0.3rem/1.4rem "";
+        font-weight: 700;
+        color: #000000; }
+      #Find section .find1 .find1In span {
+        font: 0.24rem/1.4rem "";
+        color: #bcbcbc;
+        padding-right: 0.4rem;
+        background: url(../images/modr.png) no-repeat right center;
+        background-size: 0.15rem 0.26rem; }
+  #Find section .find2 .find2In {
+    font: 0.3rem/0.9rem "";
+    color: #000000;
+    font-weight: 700;
+    text-align: center; }
+    #Find section .find2 .find2In span {
+      color: #ddc195; }
+  #Find section .find3 {
+    padding-bottom: 0.98rem; }
+    #Find section .find3 li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.3rem;
+      box-sizing: border-box;
+      background: #ffffff;
+      margin-bottom: 0.1rem; }
+      #Find section .find3 li .find3l {
+        width: 4.75rem; }
+        #Find section .find3 li .find3l p {
+          font: 0.3rem/0.5rem "";
+          font-weight: 700;
+          color: #000000;
+          height: 1rem;
+          word-wrap: break-word;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #Find section .find3 li .find3l span {
+          font: 0.3rem/0.5rem "";
+          color: #8e8e8e; }
+        #Find section .find3 li .find3l .find3l-b {
+          display: flex;
+          justify-content: flex-start;
+          font: 0.24rem/0.35rem "";
+          color: #8e8e8e; }
+          #Find section .find3 li .find3l .find3l-b i {
+            border: 1px solid #ddc195;
+            color: #ddc195;
+            padding: 0 0.1rem; }
+      #Find section .find3 li img {
+        height: 1.9rem;
+        width: 1.9rem; }
+
+footer {
+  height: 0.98rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #f0f0f0;
+  border-top: 1px solid #b3b3b3; }
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%; }
+    footer ul li {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      color: #838383; }
+      footer ul li a img {
+        height: 0.48rem;
+        width: 0.48rem;
+        display: block;
+        margin: 0.1rem auto 0; }
+      footer ul li a span {
+        font: 0.18rem/0.36rem ""; }
+      footer ul li.active a {
+        color: #fe653b; }
+
+/*# sourceMappingURL=find.css.map */

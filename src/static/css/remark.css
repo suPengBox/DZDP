@@ -1,0 +1,236 @@
+.margin {
+  width: 6.9rem;
+  margin: 0 auto; }
+
+body {
+  background: #f0f0f0; }
+
+header {
+  height: 0.9rem;
+  width: 100%;
+  box-shadow: 0 1px 3px #d8d8d8;
+  -webkit-box-shadow: 0 1px 3px #d8d8d8;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+  z-index: 1000;
+  padding-right: 0.3rem;
+  box-sizing: border-box; }
+  header .header-l {
+    height: 0.9rem;
+    width: 1.3rem;
+    font: 0.28rem/0.8rem "";
+    color: #fe6136;
+    text-align: center;
+    font-weight: 700; }
+  header .header-c {
+    font: 0.32rem/0.9rem "";
+    color: #000000; }
+  header .header-r {
+    width: 1.16rem;
+    height: 0.6rem;
+    background: #fe6136;
+    color: #ffffff;
+    font: 0.28rem/0.6rem "";
+    border-radius: 5%;
+    text-align: center;
+    margin: auto 0; }
+
+section {
+  padding-top: 0.9rem; }
+  section .mark1 {
+    height: 1.38rem;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    background: #ffffff; }
+    section .mark1 .mark1-l {
+      font: 0.3rem/1.38rem "";
+      color: #000000;
+      display: flex;
+      justify-content: flex-start; }
+      section .mark1 .mark1-l span {
+        margin-right: 0.1rem; }
+      section .mark1 .mark1-l ul {
+        display: flex;
+        justify-content: flex-start; }
+        section .mark1 .mark1-l ul li {
+          margin: 0 0.1rem; }
+          section .mark1 .mark1-l ul li img {
+            height: 0.6rem;
+            width: 0.6rem; }
+    section .mark1 .mark1-r {
+      font: 0.3rem/1.38rem "";
+      color: #000000; }
+  section .mark2 {
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e1e1e1;
+    background: #ffffff; }
+    section .mark2 dd {
+      height: 0.9rem;
+      display: flex;
+      justify-content: space-between; }
+      section .mark2 dd .mark2-l {
+        font: 0.27rem/0.9rem "";
+        color: #000000;
+        display: flex;
+        justify-content: flex-start; }
+        section .mark2 dd .mark2-l span {
+          margin-right: 0.15rem; }
+        section .mark2 dd .mark2-l ul {
+          display: flex;
+          justify-content: flex-start; }
+          section .mark2 dd .mark2-l ul li {
+            margin: 0 0.15rem; }
+            section .mark2 dd .mark2-l ul li img {
+              height: 0.5rem;
+              width: 0.5rem; }
+      section .mark2 dd .mark2-r {
+        font: 0.27rem/0.9rem "";
+        color: #000000; }
+  section .mark3 {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0.2rem 0.3rem;
+    box-sizing: border-box;
+    background: #ffffff; }
+    section .mark3 textarea {
+      height: 3.24rem;
+      font: 0.3rem/0.5rem "";
+      width: 100%;
+      border: none;
+      outline: none; }
+    section .mark3 textarea::-webkit-input-placeholder {
+      color: #cfcfcf; }
+    section .mark3 .mark3b {
+      justify-content: space-between;
+      display: flex; }
+      section .mark3 .mark3b .mark3b-l {
+        height: 0.45rem;
+        height: 0.45rem; }
+      section .mark3 .mark3b span {
+        font: 0.24rem/0.45rem "";
+        color: #cfcfcf; }
+  section .chuan {
+    padding-left: 0.3rem;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e1e1e1; }
+    section .chuan .mark4 {
+      justify-content: flex-start;
+      display: flex;
+      padding: 0.3rem 0.3rem 0.3rem 0;
+      border-bottom: 1px solid #e1e1e1;
+      border-top: 1px solid #e1e1e1;
+      background: #fff;
+      margin-top: 0.2rem;
+      box-sizing: border-box; }
+      section .chuan .mark4 .mark4l {
+        height: 1.55rem;
+        width: 1.55rem;
+        border: 1px dashed #cdcdcd;
+        background: #f5f5f5;
+        margin: auto 0; }
+        section .chuan .mark4 .mark4l img {
+          width: 0.67rem;
+          height: 0.61rem; }
+      section .chuan .mark4 .mark4r {
+        font: 0.22rem/0.58rem "";
+        margin-left: 0.2rem; }
+        section .chuan .mark4 .mark4r p {
+          font: 0.3rem/0.6rem "";
+          color: #000000;
+          font-weight: 700;
+          margin-top: 0.25rem; }
+        section .chuan .mark4 .mark4r span {
+          color: #f39482; }
+    section .chuan .mark5 {
+      background: #fff;
+      padding-right: 0.3rem;
+      box-sizing: border-box; }
+      section .chuan .mark5 .mark5t {
+        font: 0.3rem/0.8rem "";
+        color: #000000; }
+      section .chuan .mark5 .mark5b {
+        justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0.2rem; }
+        section .chuan .mark5 .mark5b li {
+          font: 0.26rem/0.54rem "";
+          padding: 0 0.24rem;
+          border: 1px solid #bbbbbb;
+          border-radius: 5%;
+          margin-bottom: 0.14rem;
+          margin-right: 0.1rem;
+          box-sizing: border-box;
+          border-bottom: 1px solid #e1e1e1; }
+    section .chuan .mark6 {
+      display: flex;
+      padding-right: 0.3rem;
+      box-sizing: border-box;
+      justify-content: space-between; }
+      section .chuan .mark6 .mark6l {
+        font: 0.3rem/0.9rem "";
+        color: #000000; }
+      section .chuan .mark6 .mark6r {
+        display: flex;
+        justify-content: flex-start; }
+        section .chuan .mark6 .mark6r img {
+          width: 0.9rem;
+          height: 0.57rem;
+          margin: auto 0; }
+        section .chuan .mark6 .mark6r P {
+          width: 3rem;
+          font: 0.24rem/0.9rem "";
+          color: #ababab;
+          background: url(../images/modr.png) no-repeat right center;
+          background-size: 0.15rem 0.26rem; }
+  section .mark7 {
+    height: 0.88rem;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    margin: 0.2rem 0;
+    background: #ffffff;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start; }
+    section .mark7 span {
+      font: 0.3rem/0.9rem "";
+      color: #000000;
+      margin-right: 0.7rem; }
+    section .mark7 .money {
+      font: 0.3rem/0.9rem "";
+      color: #9a9a9a; }
+      section .mark7 .money input {
+        height: 0.6rem;
+        width: 4.5rem;
+        border: none;
+        outline: none;
+        font: 0.3rem/0.6rem "";
+        color: #000000;
+        margin: auto 0; }
+  section .mark8 {
+    height: 0.88rem;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    margin: 0.2rem 0 0.8rem 0;
+    background: #ffffff;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; }
+    section .mark8 span {
+      font: 0.3rem/0.9rem "";
+      color: #000000; }
+    section .mark8 img {
+      width: 0.15rem;
+      height: 0.26rem;
+      margin: auto 0; }
+
+/*# sourceMappingURL=remark.css.map */

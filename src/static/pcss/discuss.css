@@ -1,0 +1,42 @@
+section .dian {
+    height: 1.3rem;
+    width: 100%;
+    border-bottom: 0.2rem solid #f0f0f0;
+    justify-content: flex-start;
+    display: flex;
+    padding: 0.2rem 0.2rem;
+    box-sizing: border-box; }
+section .dian .slide2Left {
+    height: 0.63rem;
+    width: 0.7rem;
+    display: block; }
+section .dian i {
+    display: block;
+    width: 0.18rem;
+    height: 0.63rem;
+    border-right: 1px solid #e0e0e0;
+    margin-right: 0.27rem; }
+section .dian .slide2 {
+    height: 100%;
+    flex: 1; }
+section .dian .slide2 .swiper-wrapper {
+    width: 100%;
+    height: 100%; }
+section .dian .slide2 .swiper-wrapper .swiper-slide {
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    display: flex; }
+section .dian .slide2 .swiper-wrapper .swiper-slide img {
+    display: block;
+    height: 0.6rem;
+    width: 0.6rem;
+    margin-right: 0.15rem; }
+section .dian .slide2 .swiper-wrapper .swiper-slide p {
+    font: 0.26rem "";
+    color: #000;
+    font-weight: 700;
+    flex: 1; }
+section .dian .slide2 .swiper-wrapper .swiper-slide p span {
+    font: 0.22rem "";
+    font-weight: 100; }

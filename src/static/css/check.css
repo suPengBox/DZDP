@@ -1,0 +1,273 @@
+body {
+  background: #ffffff;
+  position: relative; }
+
+header {
+  height: 0.9rem;
+  width: 100%;
+  box-shadow: 0 1px 3px #d8d8d8;
+  -webkit-box-shadow: 0 1px 3px #d8d8d8;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+  z-index: 1000; }
+  header a {
+    display: block;
+    height: 100%;
+    width: 0.9rem; }
+    header a img {
+      height: 0.4rem;
+      width: 0.22rem; }
+  header .header-c {
+    flex: 1;
+    height: 0.6rem;
+    margin: auto 0;
+    border-radius: 0.3rem;
+    background-size: 0.31rem 0.31rem;
+    color: #b8b7bc;
+    font: 0.26rem/0.6rem "";
+    background: #e8e8e8;
+    justify-content: space-between;
+    display: flex; }
+    header .header-c span {
+      padding-left: 0.18rem; }
+    header .header-c img {
+      height: 0.31rem;
+      width: 0.31rem;
+      margin: auto 0; }
+    header .header-c .te {
+      height: 0.31rem;
+      width: 0.31rem;
+      margin: auto 0.18rem; }
+  header .header-r {
+    width: 1.3rem;
+    height: 100%; }
+    header .header-r img {
+      height: 0.48rem;
+      width: 0.48rem; }
+
+nav {
+  height: 0.86rem;
+  width: 100%;
+  border-bottom: 1px solid #c8c8c8;
+  position: fixed;
+  top: 0.9rem;
+  background-color: white;
+  z-index: 500; }
+  nav .nav {
+    display: flex;
+    justify-content: space-between; }
+    nav .nav li {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      border-right: 1px solid #e3e3e3;
+      box-sizing: border-box;
+      padding: 0.24rem 0;
+      position: relative; }
+      nav .nav li:nth-child(4) {
+        border: none; }
+      nav .nav li span {
+        font: 0.26rem "";
+        color: #000;
+        background: url(../images/chkb.png) no-repeat right center;
+        background-size: 0.26rem 0.14rem;
+        padding-right: 0.35rem; }
+        nav .nav li span.bottom {
+          background: url(../images/chkt.png) no-repeat right center;
+          background-size: 0.26rem 0.14rem; }
+    nav .nav .te {
+      position: absolute;
+      bottom: -1px;
+      left: 0.78rem;
+      height: 0.14rem;
+      width: 0.32rem;
+      z-index: 400; }
+  nav dl {
+    position: absolute;
+    top: 0.86rem;
+    width: 100%; }
+    nav dl .near {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      display: none;
+      background-color: white;
+      z-index: 500; }
+      nav dl .near .neart {
+        height: 0.86rem;
+        width: 100%;
+        padding: 0.24rem 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid #c8c8c8;
+        display: flex;
+        justify-content: flex-start; }
+        nav dl .near .neart li {
+          width: 50%;
+          text-align: center;
+          height: 100%; }
+          nav dl .near .neart li span {
+            font: 0.26rem "";
+            color: #000;
+            background: url(../images/chkt2.png) no-repeat right center;
+            background-size: 0.26rem 0.14rem;
+            padding-right: 0.35rem; }
+      nav dl .near .nearb {
+        height: 6.18rem;
+        width: 100%;
+        justify-content: space-between;
+        display: flex; }
+        nav dl .near .nearb .nearb-l {
+          width: 50%;
+          background: #f0f0f0;
+          overflow: auto; }
+          nav dl .near .nearb .nearb-l li {
+            height: 0.88rem;
+            font: 0.28rem/0.88rem "";
+            color: #000000;
+            padding-left: 0.32rem;
+            box-sizing: border-box; }
+          nav dl .near .nearb .nearb-l .active1 {
+            background: #fff; }
+        nav dl .near .nearb .nearb-r {
+          width: 50%;
+          padding-left: 0.32rem;
+          box-sizing: border-box; }
+          nav dl .near .nearb .nearb-r li {
+            height: 0.88rem;
+            font: 0.28rem/0.88rem "";
+            color: #000000;
+            border-bottom: 1px solid #d7d7d7; }
+          nav dl .near .nearb .nearb-r .active2 {
+            color: #fe6136; }
+    nav dl .hair {
+      height: 5rem;
+      width: 100%;
+      background: #f99;
+      position: absolute;
+      top: 0;
+      display: none; }
+    nav dl .sort {
+      height: 5rem;
+      width: 100%;
+      background: #f9f;
+      position: absolute;
+      top: 0;
+      display: none; }
+    nav dl .select {
+      height: 5rem;
+      width: 100%;
+      background: #99f;
+      position: absolute;
+      top: 0;
+      display: none; }
+
+section {
+  padding-top: 1.76rem; }
+  section .banner {
+    height: 0.92rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0.16rem;
+    box-sizing: border-box; }
+    section .banner li {
+      height: 0.92rem; }
+      section .banner li a {
+        height: 0.6rem;
+        display: block;
+        padding: 0 0.25rem;
+        border: 1px solid #cdcdcd;
+        font: 0.23rem/0.6rem "";
+        color: #000;
+        margin: auto 0.08rem;
+        border-radius: 3%; }
+  section .list li {
+    border-bottom: 0.08rem solid #f1f1f1;
+    border-top: 0.08rem solid #f1f1f1;
+    padding: 0.2rem 0 0 0.2rem; }
+    section .list li a {
+      display: flex;
+      justify-content: space-between; }
+      section .list li a .listl {
+        height: 1.32rem;
+        width: 1.32rem; }
+      section .list li a .listr {
+        width: 5.8rem;
+        padding-right: 0.2rem;
+        box-sizing: border-box; }
+        section .list li a .listr .listr1 {
+          font: 0.3rem/0.4rem "";
+          color: #000;
+          font-weight: 700; }
+        section .list li a .listr .listr2 {
+          display: flex;
+          justify-content: space-between;
+          height: 0.6rem; }
+          section .list li a .listr .listr2 dl {
+            display: flex;
+            justify-content: space-between;
+            margin: auto 0; }
+            section .list li a .listr .listr2 dl dd {
+              border: none;
+              margin-right: 0.05rem; }
+              section .list li a .listr .listr2 dl dd img {
+                height: 0.24rem;
+                width: 0.24rem; }
+          section .list li a .listr .listr2 span {
+            font: 0.22rem/0.6rem ""; }
+        section .list li a .listr .listr3 {
+          margin-bottom: 0.18rem; }
+          section .list li a .listr .listr3 i {
+            font: 0.18rem/0.32rem "";
+            color: #ff603c;
+            border: 1px solid #ff603c; }
+            section .list li a .listr .listr3 i span {
+              color: #fff;
+              background: #ff603c;
+              margin-right: 0.1rem; }
+        section .list li a .listr .listr4 {
+          font: 0.24rem/0.53rem "";
+          color: #000000;
+          justify-content: flex-start;
+          display: flex; }
+          section .list li a .listr .listr4 span {
+            height: 0.36rem;
+            width: 0.36rem;
+            text-align: center;
+            color: #fff;
+            background: #ff603c;
+            margin: auto 0;
+            margin-right: 0.14rem;
+            display: block;
+            font: 0.24rem/0.36rem ""; }
+        section .list li a .listr .listr5 {
+          font: 0.24rem/0.53rem "";
+          color: #000000;
+          justify-content: flex-start;
+          display: flex; }
+          section .list li a .listr .listr5 span {
+            height: 0.36rem;
+            width: 0.36rem;
+            text-align: center;
+            color: #fff;
+            background: #ff603c;
+            margin: auto 0;
+            margin-right: 0.14rem;
+            display: block;
+            font: 0.24rem/0.36rem ""; }
+
+footer {
+  height: 5rem;
+  width: 100%;
+  margin-top: 0.2rem;
+  padding: 0.3rem;
+  box-sizing: border-box; }
+  footer #echart {
+    height: 100%;
+    width: 100%;
+    background: #f99; }
+
+/*# sourceMappingURL=check.css.map */
